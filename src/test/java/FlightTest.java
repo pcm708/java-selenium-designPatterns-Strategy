@@ -38,6 +38,6 @@ public class FlightTest {
 
     @AfterTest
     public void tearDown(){
-//        wdFactory.shutDriver(driver);
+        wdFactory.shutDriver(driver);
     }
 }
